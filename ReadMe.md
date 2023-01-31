@@ -1,18 +1,15 @@
-.NET 6 Web API for Redis Cache, Distributed Lock, Sqlite
-
- with Dependency Injection 
+# .NET 6 Web API for Redis Cache, Distributed Lock, Sqlite with Dependency Injection 
 
 
-* ORMs and Databases can be immplemented optionally 
+* ORMs and Databases can be implemented optionally 
 
     - In the project > Entity Framework Core, Redis and Sqlite were used
 
 
 
 
-1- Sqlite DB Migration
+# Sqlite DB Migration Reference
 
-# Project Reference
     dotnet add package Microsoft.EntityFrameworkCore
 
     dotnet add package Microsoft.EntityFrameworkCore.Sqlite
@@ -26,9 +23,8 @@
     <!-- for fresh start on db  -->
     -- dotnet ef database update 0 --context ApiDbContext
 
-2- Redis 
 
-# Setup
+# Setup Redis
 
     To run redis server on windows
 
@@ -39,7 +35,7 @@
 
     Redis will be ready for test instance
 
-# Project Reference
+- Project Reference
 
     dotnet add package Microsoft.Extensions.Caching.StackExchangeRedis
 
