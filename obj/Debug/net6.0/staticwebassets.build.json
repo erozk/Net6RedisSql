@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "/Mr6XHxdPt47EtO1WBoMuYscAJnkpnqTL3WcSvEMXcs=",
+  "Source": "Net6RedisSql",
+  "BasePath": "_content/Net6RedisSql",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
